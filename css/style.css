@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(200, 107, 112);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+}
+#container{
+    color: rgb(221, 238, 238);
+
+    
+}
+#nameP{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(208, 27, 114);
+    font-weight: bold;
+}
+.digit{
+    font-size: 100px;
+    font-weight: bold;
+}
+.txt{
+    font-size: 20px;
+    font-weight: 200;
+    font-family:sans-serif;
+}
+
+#time{
+    
+    
+}
+#btn-container{
+    
+    text-align: center;
+    margin: 40px;
+}
+.btn{
+  padding: 7px 25px;
+  font-size: 15px;
+  margin: 0px 10px;
+  border: 0px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+}
+#start{
+    background-color: rgb(163, 211, 68);
+}
+#Stop{
+    background-color: rgb(119, 212, 243);
+}
+#Reset{
+    background-color: rgb(201, 64, 64);
+}
